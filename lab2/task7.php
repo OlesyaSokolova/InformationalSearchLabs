@@ -1,5 +1,5 @@
 <html> <head>
-    <title> Задание 5. </title>
+    <title>Задание 7.</title>
 </head> <body>
 <p><i>  1. Создайте ассоциативный массив $cust[]
         с ключами cnum, cname, city, snum и rating
