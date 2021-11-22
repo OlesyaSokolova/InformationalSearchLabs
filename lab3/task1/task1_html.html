@@ -1,0 +1,28 @@
+<html lang="RU"> <head>
+  <meta charset="UTF-8" />
+  <title> Листинг 10-1. Простая HTML-форма </title>
+</head> <body>
+
+<!--
+Форма для задания цвета через переменную $bg.
+Ее использование — в скрипте ls10-2.php
+-->
+
+<p><b>Выберите горизонтальное расположение:</b></p>
+
+<form action="task1_php.php" method="GET">
+  <p><input type="radio" name="align" value="left">left</p>
+  <p><input type="radio" name="align" value="center">center</p>
+  <p><input type="radio" name="align" value="right">right</p>
+
+<p><b>Выберите вертикальное расположение:</b></p>
+
+  <p><input type="checkbox" name="valign" value="top">top</p>
+  <p><input type="checkbox" name="valign" value="middle">middle</p>
+  <p><input type="checkbox" name="valign" value="bottom">bottom</p>
+
+  <p><input type="submit" value="Выполнить"></p>
+
+</form>
+
+</body> </html>
