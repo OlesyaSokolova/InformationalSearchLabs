@@ -24,9 +24,7 @@ $database = "sample";
 if (!$conn ) die("Нет соединения с MySQL");
 mysqli_select_db($conn, $database)
 or die ("Нельзя открыть $database: ".mysqli_error($conn));
-$tab_res = mysqli_query($conn, "SHOW TABLES");
 print "<dl><dd>\n";
-
 
 for($i =0; $i < count($tablesToShowStructue); $i++)
 {
@@ -38,7 +36,7 @@ for($i =0; $i < count($tablesToShowContent); $i++)
     showTableContent($conn, $tablesToShowContent[$i]);
 }
 
-mysqli_close($conn);
+
 
 function showTableStructure($conn, string $tableName)
 {

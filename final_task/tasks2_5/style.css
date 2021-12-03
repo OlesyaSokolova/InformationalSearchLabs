@@ -1,0 +1,21 @@
+table {
+    border: 1px solid black;
+    width: 500px
+}
+/*th - шрифт Arial, размер шрифта 10pt,
+td - шрифт Courier New, размер шрифта 12pt,
+h4 - цвет заголовка синий, размер шрифта 14pt.*/
+th {
+    border: 1px solid black;
+    font-family: "Arial", serif;
+    font-size: 10pt;
+}
+td {
+    border: 1px solid black;
+    font-family: "Courier New", serif;
+    font-size: 12pt;
+}
+h4 {
+    color: blue;
+    font-size: 14pt;
+}

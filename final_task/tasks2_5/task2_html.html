@@ -1,0 +1,73 @@
+<html lang="RU"> <head>
+    <meta charset="UTF-8" />
+    <title> Выбор параметров </title>
+</head> <body>
+
+
+<form action="task2_php.php" method="GET" id="tablesForm">
+
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Отобразить</th>
+        </tr>
+        <tr>
+            <td>таблицы</td>
+            <td width="100"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td width="100"></td>
+            <td>структуру</td>
+            <td>содержимое</td>
+        </tr>
+
+        <tr>
+            <td>
+                продавцы (sal)
+            </td>
+            <td width="100"></td>
+            <td>
+                <input type="checkbox" name="structure[]" value="sal" form="tablesForm">
+            </td>
+            <td>
+                <input type="checkbox" name="content[]" value="sal" form="tablesForm"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                покупатели (cust)
+            </td>
+            <td width="100"></td>
+            <td>
+                <input type="checkbox" name="structure[]" value="cust" form="tablesForm">
+            </td>
+            <td>
+                <input type="checkbox" name="content[]" value="cust" form="tablesForm"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                товары (ord)
+            </td>
+            <td width="100"></td>
+            <td>
+                <input type="checkbox" name="structure[]" value="ord" form="tablesForm">
+            </td>
+            <td>
+                <input type="checkbox" name="content[]" value="ord" form="tablesForm"/>
+            </td>
+        </tr>
+
+    </table>
+
+    <p><input type="submit" value="Вывести!"></p>
+</form>
+
+</body> </html>
+
